@@ -5,7 +5,7 @@
 }
 
 body {
-  background-image: url('/malam.jpeg');
+  background-image: url('malam.jpeg');
   background-size: cover;
   background-repeat: no-repeat;
   font-family: Arial, sans-serif;
