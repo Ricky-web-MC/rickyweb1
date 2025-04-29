@@ -1,0 +1,181 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f0f2f5;
+  color: #333;
+}
+
+.header {
+  text-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  background-color: #00FFFF;
+  padding: 20px;
+}
+
+nav {
+  width: 100%;
+  background-color: #00ffff;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 10px;
+  margin: 0 auto;
+  display: block;
+  transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+  background-color: #45a;
+  border-radius: 5px;
+}
+
+.hero {
+  text-align: center;
+  padding: 50px 20px;
+  background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e');
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.hero p {
+  color: black;
+  font-size: 15px;
+}
+
+.foto-profil {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  border: 4px solid white;
+  height: ;
+  animation: muter 20s linear infinite;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+}
+
+@keyframes muter {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.about {
+  padding: 50px 20px;
+  text-align: center;
+  background-color: white;
+}
+
+.projects {
+  padding: 50px 20px;
+  background-color: #e0e0e0;
+  text-align: center;
+}
+
+.project-card {
+  background-color: cyan;
+  margin: 10px auto;
+  padding: 20px;
+  max-width: 300px;
+  border-radius: 10px;
+  color: black;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  text-decoration: none;
+  list-style: none;
+}
+
+Footer
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+}
+
+
+
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #00ffff;
+  z-index: 999;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 1rem;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.content {
+  padding-top: 100px; buat ngasih jarak supaya isi gak ketiban navbar
+  text-align: center;
+} */

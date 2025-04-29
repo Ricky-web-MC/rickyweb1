@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('background/malam.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Arial, sans-serif;
+  background-color: l;
+  padding: 50px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Card */
+.card {
+  background-image: url('background/abs.jpeg');
+  padding: 20px;
+  width: 250px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.foto {
+  width: 70px;
+  margin-block: 10px;
+  height: 70px;
+  border-radius: 50%;
+  border-bottom: 20px;
+  border: 3px solid white;
+}
+
+/* .card2 {
+  background-image: url('images/');
+  padding: 20px;
+  width: 250px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+} */
+
+.card h2 {
+  margin-bottom: 10px;
+  color: white;
+  text-shadow: 0 4px 6px white;
+}
+
+.card p {
+  <font-family: Arial; sans-serif;
+  margin-bottom: 20px;
+  color: black;
+  font-weight: bold;
+  text-shadow: 0 4px 6px white;
+  
+}
+
+.card button {
+  padding: 10px 20px;
+  background-color: #000099;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.card button:hover {
+  background-color: violet;
+  transform: scale(1.05);
+}
+
+/* Card hover efek */
+.card:hover {
+  transform: translatey(-10px);
+}
+
+.IG {
+  color: white;
+  text-decoration: none;
+}
